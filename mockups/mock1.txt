@@ -1,0 +1,17 @@
+Root{
+    Constants = Value
+    loopCondition = 5
+}
+
+var num = 0
+
+
+
+<for Condition:loopCondition>
+    num+=(15 + i)
+    <final>log(num)</final>
+</for> 
+
+<for Condition:loopCondition>
+    var num+=(15 + i)
+    <final>log(num)</final></for>
